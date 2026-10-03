@@ -1,25 +1,35 @@
 {
   "expo": {
-    "name": "juli-cake",
+    "name": "Juli Cake",
     "slug": "juli-cake",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
+    "primaryColor": "#A63D26",
     "ios": {
       "supportsTablet": true
     },
     "android": {
       "adaptiveIcon": {
-        "backgroundColor": "#E6F4FE",
+        "backgroundColor": "#A63D26",
         "foregroundImage": "./assets/android-icon-foreground.png",
-        "backgroundImage": "./assets/android-icon-background.png",
         "monochromeImage": "./assets/android-icon-monochrome.png"
       },
       "predictiveBackGestureEnabled": false
     },
     "web": {
-      "favicon": "./assets/favicon.png"
-    }
+      "favicon": "./assets/favicon.png",
+      "bundler": "metro",
+      "lang": "id",
+      "name": "Juli Cake — Kue Rumahan Jakarta",
+      "shortName": "Juli Cake",
+      "description": "Kue rumahan Jakarta yang dipanggang per pesanan. Cake, brownies, pastry, dan cookies tanpa pengawet. Pesan langsung lewat WhatsApp.",
+      "themeColor": "#A63D26",
+      "backgroundColor": "#FAF5EF",
+      "display": "standalone",
+      "startUrl": "/"
+    },
+    "plugins": ["expo-font"]
   }
 }
